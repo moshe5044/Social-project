@@ -1,0 +1,426 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  display: inline-block;
+  border-bottom: 5px solid;
+}
+
+p {
+  font-size: 15px;
+  position: relative;
+  top: -120px;
+  left: 80px;
+  color: rgb(145, 143, 143);
+}
+
+.h1Container {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 28px;
+  margin-bottom: 250px;
+  color: rgb(145, 143, 143);
+}
+
+h2 {
+  font-family: sans-serif;
+  color: rgb(145, 143, 143);
+  font-size: 60px;
+  border-bottom: 4px solid rgb(145, 143, 143);
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 0px 90px 0px;
+  width: 100vw;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: rgb(209, 208, 208);
+  box-shadow: 0px 0px 20px 10px rgb(214, 214, 214);
+}
+
+.checkBox {
+  text-align: center;
+  width: 2.5rem;
+  width: 30px;
+  min-width: 30px;
+  height: 2.5rem;
+  height: 30px;
+  min-height: 30px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.socialMediaHeader {
+  position: absolute;
+  top: -250px;
+  left: 30px;
+  margin-right: 15px;
+}
+
+.userNameHeader {
+  position: absolute;
+  top: -250px;
+  right: 30px;
+  margin-left: 15px;
+}
+
+.navBarLinks {
+  text-decoration: none !important;
+  font-size: 60px;
+  padding: 15px;
+  color: black;
+}
+
+.navBarLinks:hover {
+  color: rgb(99, 98, 98);
+}
+
+/* LOGIN STYLE */
+
+.logInput {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.Input {
+  display: block;
+  margin: 2px;
+  width: 200px;
+  height: 50px;
+  border-radius: 7%;
+  border: 0.1px solid;
+  border-color: rgb(182, 183, 184);
+  font-size: x-large;
+}
+
+.myInput {
+  width: 70px;
+  height: 50px;
+  border-radius: 7%;
+  border-radius: 7%;
+  border: 0.5px;
+  cursor: pointer;
+}
+
+.error {
+  position: relative;
+  top: 50px;
+  left: -480px;
+  color: red;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*todos style*/
+
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  height: 100px;
+  border: 1px solid;
+  margin: 7px;
+  padding: 10px;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
+.updateContentClick {
+  width: 400px;
+  padding: 20px;
+  color: rgb(45, 58, 58);
+  font-size: x-large;
+}
+
+.deleteButton {
+  height: 90px;
+  border: none;
+}
+
+.theNewContent {
+  width: 200px;
+  height: 150px;
+  margin-left: 247px;
+}
+
+.updateTitleInput {
+  height: 50px;
+}
+
+.updateTitleSend {
+  height: 55px;
+}
+
+.todosIcons {
+  display: flex;
+  cursor: pointer;
+}
+
+.editIcon {
+  padding: 10px;
+  font-size: 22px;
+}
+
+.editIcon:hover {
+  color: rgb(105, 105, 105);
+  cursor: pointer;
+}
+
+.trashIcon {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.trashIcon:hover {
+  color: rgb(255, 72, 72);
+  cursor: pointer;
+}
+
+.filtering {
+  background-color: rgb(245, 247, 247);
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -5px 8px 20px 2px rgb(214, 214, 214);
+}
+
+.sortTodos {
+  margin-top: 50px;
+  background-color: rgb(245, 247, 247);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -5px 8px 20px 2px rgb(214, 214, 214);
+}
+
+.sortTodoButton {
+  text-align: center;
+  border: none;
+  background: none;
+  padding: 30px 20px 30px 20px;
+  font-size: large;
+}
+
+.sortTodoButton:hover {
+  background: rgb(223, 235, 245);
+  cursor: pointer;
+}
+
+.displayBy {
+  margin-top: 40px;
+}
+
+select {
+  margin-left: 10px;
+}
+
+.addTodoForm {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  box-shadow: -5px 8px 20px 2px rgb(214, 214, 214);
+}
+
+.addTodo {
+  width: 400px;
+  height: 30px;
+  font-size: large;
+}
+
+.addTodoSubmit {
+  height: 35px;
+  font-size: large;
+}
+
+/* POSTS STYLE */
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  height: 120px;
+  border: 1px solid;
+  margin: 7px;
+  padding: 10px;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
+h3 {
+  display: inline;
+}
+
+.postHeader {
+  cursor: pointer;
+  padding-right: 15px;
+  font-size: large;
+}
+
+.post.expanded {
+  height: auto;
+  background-color: rgb(223, 240, 240);
+}
+
+.postIcons {
+  text-align: right;
+  width: 70px;
+}
+
+.addPostForm {
+  width: 370px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: rgb(245, 247, 247);
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -5px 8px 20px 2px rgb(214, 214, 214);
+}
+
+.addPostButton {
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.addPostButton:hover {
+  color: rgb(6, 127, 241);
+}
+
+.editPostForm {
+  width: 370px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: rgb(245, 247, 247);
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -5px 8px 20px 2px rgb(214, 214, 214);
+}
+
+.postButton {
+  text-align: center;
+  border: none;
+  border-radius: 5%;
+  background: rgb(247, 246, 246);
+  padding: 30px 20px 30px 20px;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.postButton:hover {
+  background: rgb(223, 235, 245);
+  cursor: pointer;
+} 
+
+/* ALBUMS STYLE */
+
+/* .albumsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.album {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+  height: 110px;
+  border: 1px solid;
+  margin: 7px;
+  padding: 10px;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
+.album:hover {
+  background-color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+.albumTitle {
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.photosContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photoList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  margin: 10px;
+  text-align: center;
+}
+
+.photo img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.linkToPhotos {
+  color: black;
+}
+
+.linkToPhotos:hover {
+  color: rgb(243, 15, 15);
+
+} */
+
+.userDetailes {
+  display: flex;
+  justify-content: center;
+}
+
+.infoContainer {
+  width: 700px;
+  height: 300px;
+  text-align: center;
+  font-size: xx-large;
+  background-color: rgb(245, 247, 247);
+  margin-top: 80px;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: -5px 8px 20px 2px rgb(214, 214, 214);
+}
+
+nav {
+  padding-bottom: 30px;
+}
