@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const AddContent = ({ API_URL, user, id, todos, setTodos, fetchTodos }) => {
+const AddContent = ({ API_URL, user, todos, setTodos, fetchTodos }) => {
   const [newTodo, setNewTodo] = useState("");
 
   const handleAddTodo = async (e) => {
